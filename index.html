@@ -1,20 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Alfa Online Radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Alfa Radio – Christian radio broadcasting in Siswati and other languages.">
 
+  <!-- SEO -->
   <link rel="canonical" href="https://alfaradio.co.za">
-
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0f172a">
 
-  <!-- Open Graph / Social -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Alfa Online Radio">
   <meta property="og:description" content="Christian radio broadcasting in Siswati and other languages.">
   <meta property="og:url" content="https://alfaradio.co.za">
-  <meta property="og:image" content="https://alfaradio.co.za/og-image.png">
+  <meta property="og:image" content="/og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
 
@@ -36,9 +38,22 @@
 
     main {
       text-align: center;
-      max-width: 500px;
+      max-width: 520px;
       padding: 2rem;
       animation: fadeUp 0.8s ease-out;
+    }
+
+    .logo {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1.2rem;
+      max-width: 140px;
+    }
+
+    @media (min-width: 640px) {
+      .logo {
+        max-width: 200px;
+      }
     }
 
     h1 {
@@ -65,19 +80,6 @@
       background: #16a34a;
     }
 
-    .logo {
-      width: 100%;
-      height: auto;
-      margin-bottom: 1.2rem;
-      max-width: 140px;
-    }
-
-    @media (min-width: 640px) {
-      .logo {
-        max-width: 200px;
-      }
-    }
-
     @keyframes fadeUp {
       from {
         opacity: 0;
@@ -90,3 +92,22 @@
     }
   </style>
 </head>
+
+<body>
+  <main>
+    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo" class="logo">
+
+    <h1>Alfa Online Radio</h1>
+
+    <p>Christian radio broadcasting in Siswati and other languages.</p>
+
+    <a class="button" href="https://siswati.alfaradio.co.za">
+      Listen in Siswati
+    </a>
+
+    <p style="margin-top:2rem; font-size:0.9rem;">
+      More languages coming soon.
+    </p>
+  </main>
+</body>
+</html>
