@@ -31,8 +31,7 @@
       background: #0f172a;
       color: #f8fafc;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
       min-height: 100vh;
       margin: 0;
     }
@@ -41,6 +40,7 @@
       text-align: center;
       max-width: 520px;
       padding: 2rem;
+      margin: auto;
       animation: fadeUp 0.8s ease-out;
     }
 
@@ -114,6 +114,23 @@
       background: #16a34a;
     }
 
+    /* About button */
+    .btn-about {
+      background: #1e293b;
+      color: #e5e7eb;
+    }
+
+    .btn-about:hover {
+      background: #334155;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+
     @keyframes fadeUp {
       from {
         opacity: 0;
@@ -130,7 +147,6 @@
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "0505b11108564b33b0d5d66509727745"}'>
   </script>
-  <!-- End Cloudflare Web Analytics -->
 </head>
 
 <body>
@@ -145,13 +161,18 @@
       <a class="button btn-siswati"
          href="https://siswati.alfaradio.co.za"
          onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_click');">
-        🎧 Listen in Siswati
+         🎧 Listen in Siswati
       </a>
 
       <a class="button btn-isizulu"
          href="https://isizulu.alfaradio.co.za/"
          onclick="if (window.cfBeacon) cfBeacon.trackEvent('isizulu_click');">
-        🎧 Listen in IsiZulu
+         🎧 Listen in IsiZulu
+      </a>
+
+      <a class="button btn-about"
+         href="https://alfaradio.co.za/about">
+         ℹ️ About
       </a>
     </div>
 
@@ -159,5 +180,9 @@
       More languages coming soon.
     </p>
   </main>
+
+  <footer>
+    © 2026 Alfa Online Radio
+  </footer>
 </body>
 </html>
