@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About | Alfa Online Radio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="About Alfa Online Radio – mission, vision, and contact information.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f172a">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Alfa Online Radio">
+  <meta property="og:description" content="Learn more about Alfa Online Radio.">
+  <meta property="og:url" content="https://alfaradio.co.za/about.html">
+  <meta property="og:image" content="/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    header img {
+      max-width: 140px;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+
+    header h1 {
+      margin: 0.2rem 0 0;
+      font-size: 1.8rem;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.6rem;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+      opacity: 0.75;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    a {
+      color: #22c55e;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "0505b11108564b33b0d5d66509727745"}'>
+  </script>
+</head>
+
+<body>
+  <header>
+    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo">
+    <h1>About Alfa Online Radio</h1>
+  </header>
+
+  <main>
+    <section id="mission-vision">
+      <h2>Mission / Vision</h2>
+    </section>
+
+    <section id="general-info">
+      <h2>General Information</h2>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Details</h2>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Alfa Online Radio
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
