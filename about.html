@@ -2,144 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Alfa Online Radio</title>
+  <title>About | Alfa Online Radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Alfa Radio – Christian radio broadcasting in Siswati and other languages.">
 
-  <!-- SEO -->
-  <link rel="canonical" href="https://alfaradio.co.za">
+  <meta name="description" content="About Alfa Online Radio – mission, vision, and contact information.">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0f172a">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Alfa Online Radio">
-  <meta property="og:description" content="Christian radio broadcasting in Siswati and other languages.">
-  <meta property="og:url" content="https://alfaradio.co.za">
+  <meta property="og:title" content="About Alfa Online Radio">
+  <meta property="og:description" content="Learn more about Alfa Online Radio.">
+  <meta property="og:url" content="https://alfaradio.co.za/about.html">
   <meta property="og:image" content="/og-image.png">
-
-  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
 
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       background: #0f172a;
       color: #f8fafc;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
       margin: 0;
+      line-height: 1.6;
     }
 
-    main {
+    header {
+      padding: 1.5rem;
       text-align: center;
-      max-width: 520px;
-      padding: 2rem;
-      margin: auto;
-      animation: fadeUp 0.8s ease-out;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    .logo {
-      width: 100%;
+    header img {
+      max-width: 140px;
       height: auto;
-      margin-bottom: 1.2rem;
-      max-width: 160px;
-    }
-
-    @media (min-width: 640px) {
-      .logo {
-        max-width: 220px;
-      }
-    }
-
-    h1 {
-      font-size: 2rem;
       margin-bottom: 0.5rem;
     }
 
-    p {
-      opacity: 0.9;
-      line-height: 1.5;
+    header h1 {
+      margin: 0.2rem 0 0;
+      font-size: 1.8rem;
     }
 
-    /* Button group */
-    .buttons {
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    section {
+      margin-bottom: 2.2rem;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.4rem;
+      color: #38bdf8;
+    }
+
+    section p {
+      opacity: 0.9;
+    }
+
+    .actions {
+      margin-top: 3rem;
       display: flex;
       flex-direction: column;
-      gap: 0.9rem;
-      margin-top: 1.6rem;
+      gap: 1rem;
+      align-items: center;
     }
 
-    /* Base button */
-    a.button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.45rem;
-      padding: 0.9rem 1.2rem;
-      border-radius: 0.6rem;
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.3rem;
+      border-radius: 0.5rem;
       font-weight: 600;
       text-decoration: none;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      text-align: center;
+      min-width: 240px;
     }
 
-    a.button:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.35);
-    }
-
-    /* SiSwati – Blue */
-    .btn-siswati {
-      background: #38bdf8;
-      color: #082f49;
-    }
-
-    .btn-siswati:hover {
-      background: #0ea5e9;
-    }
-
-    /* IsiZulu – Green */
-    .btn-isizulu {
+    .btn-home {
       background: #22c55e;
       color: #052e16;
     }
 
-    .btn-isizulu:hover {
+    .btn-home:hover {
       background: #16a34a;
     }
 
-    /* About button */
-    .btn-about {
-      background: #1e293b;
-      color: #e5e7eb;
+    .btn-whatsapp {
+      background: #25d366;
+      color: #052e16;
     }
 
-    .btn-about:hover {
-      background: #334155;
+    .btn-whatsapp:hover {
+      background: #1ebe5b;
     }
 
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 1.5rem;
       font-size: 0.85rem;
-      opacity: 0.7;
-    }
-
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(14px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      opacity: 0.75;
+      border-top: 1px solid rgba(255,255,255,0.08);
     }
   </style>
 
@@ -150,39 +119,47 @@
 </head>
 
 <body>
+  <header>
+    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo">
+    <h1>About Alfa Online Radio</h1>
+  </header>
+
   <main>
-    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo" class="logo">
+    <section id="mission-vision">
+      <h2>Mission / Vision</h2>
+      <p>Add text here</p>
+    </section>
 
-    <h1>Alfa Online Radio</h1>
+    <section id="general-info">
+      <h2>General Information</h2>
+      <p>Add text here</p>
+    </section>
 
-    <p>Christian radio broadcasting in Siswati and other languages.</p>
+    <section id="contact">
+      <h2>Contact Details</h2>
+      <p>Add text here</p>
+    </section>
 
-    <div class="buttons">
-      <a class="button btn-siswati"
-         href="https://siswati.alfaradio.co.za"
-         onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_click');">
-         🎧 Listen in Siswati
+    <div class="actions">
+      <a href="https://alfaradio.co.za" class="btn btn-home">
+        ← Back to Home
       </a>
 
-      <a class="button btn-isizulu"
-         href="https://isizulu.alfaradio.co.za/"
-         onclick="if (window.cfBeacon) cfBeacon.trackEvent('isizulu_click');">
-         🎧 Listen in IsiZulu
-      </a>
-
-      <a class="button btn-about"
-         href="https://alfaradio.co.za/about">
-         ℹ️ About
+      <a href="https://chat.whatsapp.com/FoQl3iIoR4L6rb7PK6zePm"
+         class="btn btn-whatsapp"
+         target="_blank"
+         rel="noopener">
+        Join WhatsApp Listener Group
       </a>
     </div>
-
-    <p style="margin-top:2rem; font-size:0.9rem;">
-      More languages coming soon.
-    </p>
   </main>
 
   <footer>
-    © 2026 Alfa Online Radio
+    © <span id="year"></span> Alfa Online Radio
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
