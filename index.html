@@ -71,7 +71,7 @@
     .buttons {
       display: flex;
       flex-direction: column;
-      gap: 0.9rem;
+      gap: 0.8rem;
       margin-top: 1.6rem;
     }
 
@@ -114,14 +114,14 @@
       background: #16a34a;
     }
 
-    /* About button */
-    .btn-about {
-      background: #1e293b;
-      color: #e5e7eb;
+    /* Info buttons – Red */
+    .btn-info {
+      background: #ef4444;
+      color: #450a0a;
     }
 
-    .btn-about:hover {
-      background: #334155;
+    .btn-info:hover {
+      background: #dc2626;
     }
 
     footer {
@@ -158,21 +158,29 @@
     <p>Christian radio broadcasting in Siswati and other languages.</p>
 
     <div class="buttons">
+      <!-- Siswati -->
       <a class="button btn-siswati"
          href="https://siswati.alfaradio.co.za"
-         onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_click');">
-            Listen in Siswati
+         onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_listen');">
+        🎧 Listen in Siswati
       </a>
 
+      <a class="button btn-info"
+         href="https://alfaradio.co.za/info-siswati"
+         onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_info');">
+        ℹ️ Info (SiSwati)
+      </a>
+
+      <!-- IsiZulu -->
       <a class="button btn-isizulu"
          href="https://isizulu.alfaradio.co.za/"
-         onclick="if (window.cfBeacon) cfBeacon.trackEvent('isizulu_click');">
-            Listen in IsiZulu
+         onclick="if (window.cfBeacon) cfBeacon.trackEvent('isizulu_listen');">
+        🎧 Listen in IsiZulu
       </a>
 
-      <a class="button btn-about"
-         href="https://alfaradio.co.za/about">
-            About
+      <a class="button btn-info"
+         href="https://alfaradio.co.za/info-iszulu">
+        ℹ️ Info (IsiZulu)
       </a>
     </div>
 
