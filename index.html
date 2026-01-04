@@ -114,16 +114,14 @@
       background: #16a34a;
     }
 
-    /* Information buttons – Red */
-    .btn-info-siswati,
-    .btn-info-isizulu {
-      background: #dc2626;
-      color: #ffffff;
+    /* About button */
+    .btn-about {
+      background: #1e293b;
+      color: #e5e7eb;
     }
 
-    .btn-info-siswati:hover,
-    .btn-info-isizulu:hover {
-      background: #b91c1c;
+    .btn-about:hover {
+      background: #334155;
     }
 
     footer {
@@ -153,4 +151,38 @@
 
 <body>
   <main>
-    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo" class="l
+    <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo" class="logo">
+
+    <h1>Alfa Online Radio</h1>
+
+    <p>Christian radio broadcasting in Siswati and other languages.</p>
+
+    <div class="buttons">
+      <a class="button btn-siswati"
+         href="https://siswati.alfaradio.co.za"
+         onclick="if (window.cfBeacon) cfBeacon.trackEvent('siswati_click');">
+            Listen in Siswati
+      </a>
+
+      <a class="button btn-isizulu"
+         href="https://isizulu.alfaradio.co.za/"
+         onclick="if (window.cfBeacon) cfBeacon.trackEvent('isizulu_click');">
+            Listen in IsiZulu
+      </a>
+
+      <a class="button btn-about"
+         href="https://alfaradio.co.za/about">
+            About
+      </a>
+    </div>
+
+    <p style="margin-top:2rem; font-size:0.9rem;">
+      More languages coming soon.
+    </p>
+  </main>
+
+  <footer>
+    © 2026 Alfa Online Radio
+  </footer>
+</body>
+</html>
