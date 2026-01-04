@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zu">
 <head>
   <meta charset="utf-8">
-  <title>About | Alfa Online Radio isiZulu</title>
+  <title>Info isiZulu | Alfa Online Radio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="About Alfa Online Radio – mission, vision, and contact information.">
+  <meta name="description" content="Ulwazi ngesiZulu lwe-Alfa Online Radio – imininingwane, inhloso, nokuxhumana.">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0f172a">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="About Alfa Online Radio">
-  <meta property="og:description" content="Learn more about Alfa Online Radio.">
-  <meta property="og:url" content="https://alfaradio.co.za/isizulu.html">
+  <meta property="og:title" content="Info isiZulu | Alfa Online Radio">
+  <meta property="og:description" content="Ulwazi ngesiZulu nge-Alfa Online Radio.">
+  <meta property="og:url" content="https://alfaradio.co.za/info-isizulu.html">
   <meta property="og:image" content="/og-image.png">
 
   <!-- Favicon -->
@@ -121,37 +121,43 @@
 <body>
   <header>
     <img src="/alfa-logo-landing-v3.png" alt="Alfa Radio logo">
-    <h1>About Alfa Online Radio</h1>
+    <h1>Info – isiZulu</h1>
   </header>
 
   <main>
-    <section id="mission-vision">
-      <h2>Singobani? / Simphi?</h2>
-      <p>Ngokuba asizishumayeli thina, kodwa sishumayela uKristu Jesu eyiNkosi nokuthi siyizikhonzi zenu ngenxa kaJesu. (2 kwabaseKorinte 4:5)</p>
-      <p>Asitishumayeli tsine, kodvwa sishumayela kutsi Khristu Jesu uyiNkhosi, tsine-ke sitisebenti tenu ngenca yakhe. (2 kubaseKorinthe 4:5)</p>
-      
+    <section id="identity">
+      <h2>Sobani Thina?</h2>
+      <p>
+        Ngokuba asizishumayeli thina, kodwa sishumayela uKristu Jesu eyiNkosi,
+        thina siyizinceku zenu ngenxa kaJesu.
+        (2 Korinte 4:5)
+      </p>
     </section>
 
     <section id="general-info">
-      <h2>General Information</h2>
-      <p>Add text here</p>
+      <h2>Ulwazi Oluvamile</h2>
+      <p>
+        Faka umbhalo lapha – imininingwane nge-Alfa Online Radio ngesiZulu.
+      </p>
     </section>
 
     <section id="contact">
-      <h2>Contact Details</h2>
-      <p>Add text here</p>
+      <h2>Ukuxhumana</h2>
+      <p>
+        Faka imininingwane yokuxhumana lapha.
+      </p>
     </section>
 
     <div class="actions">
       <a href="https://alfaradio.co.za" class="btn btn-home">
-        ← Back to Home
+        ← Buyela Ekhaya
       </a>
 
       <a href="https://chat.whatsapp.com/FoQl3iIoR4L6rb7PK6zePm"
          class="btn btn-whatsapp"
          target="_blank"
          rel="noopener">
-        Join WhatsApp Listener Group
+        Joyina Iqembu Labalaleli ku-WhatsApp
       </a>
     </div>
   </main>
