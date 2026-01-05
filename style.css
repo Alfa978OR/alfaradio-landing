@@ -1,0 +1,158 @@
+/* =========================
+   Global base
+========================= */
+
+:root {
+  --button-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+/* =========================
+   Layout
+========================= */
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  opacity: 0.85;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* =========================
+   Unified buttons
+========================= */
+
+button,
+.btn {
+  display: block;
+  width: 100%;
+  max-width: var(--button-width);
+  margin: 0 auto;
+  padding: 14px 22px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 1.35;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Click feedback */
+button:active,
+.btn:active {
+  opacity: 0.85;
+}
+
+/* =========================
+   Button groups
+========================= */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+/* =========================
+   Button colors
+========================= */
+
+/* Play button */
+button#playBtn {
+  background: #e53935;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* WhatsApp */
+.btn.whatsapp {
+  background: #25d366;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Home */
+.btn.home {
+  background: #2c7be5;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hover states */
+button:hover {
+  filter: brightness(1.05);
+}
+
+.btn:hover {
+  filter: brightness(1.05);
+}
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* =========================
+   Small screens
+========================= */
+
+@media (max-width: 360px) {
+  :root {
+    --button-width: 100%;
+  }
+}
+
+.audio-status {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+/* Live = red */
+.audio-status.live {
+  color: #ff4d4d;
+}
+
+/* Paused = neutral */
+.audio-status.paused {
+  color: #bbbbbb;
+}
+
+/* Error state */
+.audio-status.error {
+  color: #ffb020;
+}
+
